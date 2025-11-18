@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Método Pet Master</title>
+  <style>
+    :root {
+      --primary: #6c63ff;
+      --primary-dark: #574fe0;
+      --accent: #ffb84d;
+      --bg: #f5f5ff;
+      --text: #333;
+      --white: #fff;
+    }
+
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: var(--bg); color: var(--text); }
+    header { background: var(--primary); padding: 40px 20px; text-align: center; color: var(--white); }
+    h1 { margin: 0; font-size: 36px; }
+    h2 { color: var(--primary-dark); }
+
+    .container { width: 90%; max-width: 900px; margin: auto; padding: 20px; }
+    .hero-img { width: 100%; max-width: 350px; margin: 20px auto; display: block; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+
+    .btn { display: inline-block; background: var(--accent); padding: 16px 26px; color: var(--white); font-weight: bold; border-radius: 8px; text-decoration: none; margin: 20px 0; transition: 0.2s; }
+    .btn:hover { background: #e6a43f; }
+
+    .section { background: var(--white); padding: 24px; border-radius: 12px; margin-top: 22px; box-shadow: 0 0 14px rgba(0,0,0,0.08); }
+
+    footer { text-align: center; padding: 25px; font-size: 14px; color: #666; }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+      h1 { font-size: 28px; }
+      h2 { font-size: 22px; }
+      .section { padding: 18px; }
+      .btn { width: 100%; text-align: center; }
+    }
+
+    /* DESKTOP */
+    @media (min-width: 900px) {
+      h1 { font-size: 42px; }
+      .container { padding: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Método Pet Master</h1>
+    <p>Cães e Gatos Comportados em 30 Dias</p>
+  </header>
+
+  <div class="container">
+
+    <img src="capa-pet-master.png" alt="Capa do E-book" class="hero-img" />
+
+    <div class="section">
+      <h2>Transforme seu pet em apenas 30 dias!</h2>
+      <p>Aprenda técnicas simples e comprovadas para treinar cães e gatos em casa, mesmo que você seja iniciante. Método baseado em reforço positivo, estudos de comportamento animal e rotinas poderosas para mudar seu pet.</p>
+    </div>
+
+    <div class="section">
+      <h2>Você vai aprender:</h2>
+      <ul>
+        <li>Como eliminar comportamentos indesejados</li>
+        <li>Comandos básicos e avançados para cães e gatos</li>
+        <li>Rotina ideal para pets equilibrados</li>
+        <li>Técnicas de reforço positivo</li>
+        <li>Como reduzir ansiedade, morder, arranhar e latidos</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Para quem é este e-book?</h2>
+      <p>Para tutores que desejam um pet mais calmo, obediente e feliz, sem gastar com adestradores e podendo treinar no conforto de casa.</p>
+    </div>
+
+    <div class="section" style="text-align:center;">
+      <h2>De R$ 79,90 por apenas R$ 29,90</h2>
+      <p>Acesso imediato — 7 dias de garantia</p>
+      <a href="#" class="btn">Quero Treinar Meu Pet Agora!</a>
+    </div>
+
+    <footer>
+      © 2025 Método Pet Master – Todos os direitos reservados.
+    </footer>
+
+  </div>
+</body>
+</html>
