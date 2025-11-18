@@ -20,7 +20,19 @@
     h2 { color: var(--primary-dark); }
 
     .container { width: 92%; max-width: 1000px; margin: auto; padding: 25px; }
-    .hero-img { width: 100%; max-width: 420px; margin: 25px auto; display: block; border-radius: 14px; box-shadow: 0 5px 18px rgba(0,0,0,0.18); }
+    .hero-img {
+      width: 100%;
+      max-width: 480px;
+      margin: 25px auto;
+      display: block;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+      object-fit: cover;
+      transition: transform .25s ease;
+    }
+    .hero-img:hover {
+      transform: scale(1.02);
+    }
 
     .btn { display: inline-block; background: var(--accent); padding: 18px 28px; color: var(--white); font-weight: bold; border-radius: 10px; text-decoration: none; margin: 25px 0; font-size: 20px; transition: 0.2s; }
     .btn:hover { background: #e67d00; transform: scale(1.03); }
@@ -76,7 +88,7 @@
     </div>
 
     <div class="section" style="text-align:center;">
-      <h2>De R$ 79,90 por apenas R$ 29,90</h2>
+      <h2>Apenas R$ 37,90</h2>
       <p>Acesso imediato — 7 dias de garantia</p>
       <a href="https://pay.kiwify.com.br/vVTlGQr" class="btn">Quero Treinar Meu Pet Agora!</a>
     </div>
